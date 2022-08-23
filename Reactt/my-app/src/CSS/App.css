@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --tit : 'Titillium Web', sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+header{
+    background-color: #87509c;
+}
+
+
+header nav ul{
+    padding-top: 5px;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    font: 400 16px var(--tit);
+line-height: 18px;
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+margin-left: 25px;
+padding: 10px 15px;
+
+}
+
+header nav{
+    padding-top: 55px;
+}
+
+
+header nav .active, header nav ul li a:hover{
+    background-color: #643a79 !important;
+    border-radius: 4px;
+
+}
+
+.header-body h1{
+    font: bold 42px var(--tit);
+line-height: 49px;
+color: #f7f3ea;
+text-align: center;
+margin-top: 150px;
+}
+
+.header-body{
+padding-bottom: 145px;
+}
+
+.header-body button{
+    background-color: #eb7d4b;
+    margin-top: 60px;
+    border-bottom: 4px solid #c86a40;
+
+}
